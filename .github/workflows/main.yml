@@ -5,8 +5,8 @@ on:
     branches: [ gh-pages ]
   pull_request:
     branches: [ gh-pages ]
-  schedule:
-    - cron: '*/5 * * * *'
+#  schedule:
+#    - cron: '*/5 * * * *'
 
 jobs:
   build:
